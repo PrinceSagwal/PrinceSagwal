@@ -23,9 +23,9 @@
 - 🎓 **BTech CSE Student** at **CGC UNIVERSITY MOHALI** (2024-28)
 - 📊 **CGPA: 8.3** (till 3rd semester)
 - 🏫 **Academic Background:**
-  - CBSE (2022-23): - Army Public School Nehru Road, Lucknow
-  - CBSE (2020-21): - Army Public School Nehru Road, Lucknow
-- 📧 How to reach me **prakashtiwarie06@gmail.com**
+  - CBSE (2023-24): - Aggarsain Public School,Kurukshetra
+  - CBSE (2021-22): - Aggarsain Public School,Kurukshetra
+- 📧 How to reach me **Princesagwal123@gmail.com**
 - ⚡ I love web development!
 
 
