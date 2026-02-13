@@ -130,7 +130,7 @@
 <h1 align="left">📊 GitHub Stats</h1>
 <div align="center"> <table> <tr> <td> <img src="https://github-readme-stats.vercel.app/api?username=PrinceSagwal&show_icons=false&include_all_commits=true&count_private=true&theme=dark" width="400" height="200"/> </td> <td> <img src="https://streak-stats.demolab.com?user=PrinceSagwal&theme=dark" width="400" height="200"/> </td> </tr> <tr> <td colspan="2" align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tiwari1782&layout=compact&theme=dark" width="820" height="200"/> </td> </tr> </table> </div>
 
-<h1 align="left">🧠 LeetCode Stats</h1> <p align="center"> <a href="https://leetcode.com/pRaKaSh1782"> <img src="https://leetcard.jacoblin.cool/pRaKaSh1782?theme=dark" alt="Prakash's LeetCode Stats"> </a> </p>
+<h1 align="left">🧠 LeetCode Stats</h1> <p align="center"> <a href="https://leetcode.com/Prince5310"> <img src="https://leetcard.jacoblin.cool/pRaKaSh1782?theme=dark" alt="Prakash's LeetCode Stats"> </a> </p>
 ## 🏆 GitHub Trophies
 
 <div align="center">
