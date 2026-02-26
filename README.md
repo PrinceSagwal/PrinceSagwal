@@ -54,6 +54,7 @@ erence cleanup
 
 </div>
 ---
+
 ## 🚀 Featured Projects
 
 ### 🛡️ **AI Fraud Detection Dashboard** - Real-Time Transaction Monitoring System
