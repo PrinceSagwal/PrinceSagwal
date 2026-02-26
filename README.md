@@ -65,7 +65,7 @@ erence cleanup
   <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Dashboard-2563eb?style=for-the-badge&labelColor=1e293b" alt="Live Demo" />
 </a>
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Tiwari1782/Fraud-Detection-Dashboard)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/PrinceSagwal/Fraud-Detection-Dashboard)
 [![Node.js](https://img.shields.io/badge/Node.js-v14+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Express.js](https://img.shields.io/badge/Express.js-Backend-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
