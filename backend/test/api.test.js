@@ -64,7 +64,8 @@ describe("API routes", () => {
     const res = await request(server, "POST", "/api/contact", payload);
     assert.equal(res.status, 201);
     assert.equal(res.body.success, true);
-    assert.ok(res.body.entry.id);
+    assert.equal(typeof res.body.entry.id, "number");
+    assert.ok(res.body.entry.id > 0);
   });
 
   it("POST /api/contact rejects missing fields", async () => {

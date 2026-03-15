@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
+// In-memory store — messages are lost on server restart.
+// Replace with a database (e.g. MongoDB) for production use.
 const messages = [];
 
 router.post("/", (req, res) => {
@@ -18,7 +20,7 @@ router.post("/", (req, res) => {
   }
 
   const entry = {
-    id: messages.length + 1,
+    id: Date.now(),
     name,
     email,
     message,

@@ -15,7 +15,8 @@ async function loadProjects() {
     if (!res.ok) throw new Error("Failed to fetch projects");
     const projects = await res.json();
     grid.innerHTML = projects.map(projectCard).join("");
-  } catch {
+  } catch (err) {
+    console.error("Failed to load projects:", err);
     grid.innerHTML = `<p style="text-align:center;color:var(--color-text-muted);">Unable to load projects. Please try again later.</p>`;
   }
 }
@@ -75,7 +76,8 @@ function setupContactForm() {
         status.textContent = data.error || "Something went wrong.";
         status.classList.add("error");
       }
-    } catch {
+    } catch (err) {
+      console.error("Contact form error:", err);
       status.textContent = "Network error. Please try again.";
       status.classList.add("error");
     }
