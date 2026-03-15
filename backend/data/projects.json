@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "AI Fraud Detection Dashboard",
+    "description": "A real-time transaction monitoring platform built with Node.js + Express and MySQL. Detects suspicious transactions using a risk-scoring fraud engine, visualizes insights with interactive charts, supports bulk CSV analysis, and generates professional reports.",
+    "tech": ["Node.js", "Express.js", "MySQL", "Sequelize", "EJS", "Chart.js", "Bootstrap 5"],
+    "github": "https://github.com/PrinceSagwal/Fraud-Detection-Dashboard",
+    "live": "https://fraud-detection-dashboard-muan.onrender.com/dashboard",
+    "image": "images/fraud-dashboard.svg"
+  },
+  {
+    "id": 2,
+    "title": "Portfolio Website",
+    "description": "A modern full-stack personal portfolio website built with Node.js backend and a responsive frontend showcasing projects, skills, and contact information.",
+    "tech": ["Node.js", "Express.js", "HTML5", "CSS3", "JavaScript"],
+    "github": "https://github.com/PrinceSagwal/PrinceSagwal",
+    "live": "#",
+    "image": "images/portfolio.svg"
+  }
+]

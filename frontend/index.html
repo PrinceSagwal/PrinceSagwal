@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Sagwal | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Prince<span>Sagwal</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi there 👋, I'm</p>
+      <h1 class="hero-name">Prince Sagwal</h1>
+      <p class="hero-tagline">From AI to APIs &mdash; I Build, Automate, and Innovate</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <strong>BTech CSE student</strong> at <strong>CGC University Mohali</strong> (2024-28)
+            with a CGPA of <strong>8.3</strong>. I'm passionate about full-stack web development, AI/ML,
+            and building real-world solutions that make an impact.
+          </p>
+          <p>
+            As the <strong>Bug2Build Human Resource Head</strong> at my university, I combine leadership
+            with technical skills. I was a <strong>Top 8 Finalist</strong> at GenAI Hackathon 2025 and
+            a <strong>Top 10 Finalist</strong> at HackChrono 2025.
+          </p>
+          <ul class="about-highlights">
+            <li>🎓 BTech CSE &mdash; CGC University Mohali</li>
+            <li>📊 CGPA: 8.3 (till 3rd semester)</li>
+            <li>🏅 GenAI Hackathon 2025 &mdash; Top 8 Finalist</li>
+            <li>🏅 HackChrono 2025 &mdash; Top 10 Finalist</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Coding animation" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Frameworks &amp; Libraries</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">TailwindCSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Databases &amp; Cloud</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools &amp; Technologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Postman</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>AI/ML &amp; Other</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Generative AI</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">System Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div id="projects-grid" class="projects-grid">
+        <!-- Projects loaded dynamically from the backend API -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-subtitle">Have a question or want to work together? Send me a message!</p>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 Prince Sagwal. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/PrinceSagwal" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/prince-sagwal-22547a324/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:Princesagwal123@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
