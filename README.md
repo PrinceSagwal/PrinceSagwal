@@ -37,6 +37,7 @@
 |:--------------|:------------------------|
 | **GenAI Hackathon 2025** |🏅 Top 8 Finalist |
 | **HackChrono 2025** | 🏅 Top 10 Finalist |
+| **Hack-N-Win 2026** | 🏅 Top 14 Finalist |
 
 </div>
 
