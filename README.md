@@ -159,6 +159,81 @@ erence cleanup
 </div>
 
 #### 📝 Project Description
+**JurisBridge** is a comprehensive full-stack legal-tech platform built on the **MERN stack** that bridges the gap between citizens and legal professionals using AI. It features a multi-provider AI legal assistant (JurisPilot), a verified lawyer marketplace, real-time chat & video consultations, AI-powered document analysis, legal notice generation, and Razorpay-integrated payments — all in one platform.
+
+#### 🛠️ Tech Stack
+
+**Frontend:**
+- React 19, Vite 7
+- Tailwind CSS v4
+- Framer Motion (animations)
+- Zustand (state management)
+- Socket.io Client, React Router v7
+- Axios
+
+**Backend:**
+- Node.js, Express.js
+- MongoDB, Mongoose ODM
+- Socket.io (real-time messaging)
+- JWT Authentication
+- Multer (file uploads), Cloudinary (cloud storage)
+- pdf-parse, mammoth (document extraction)
+
+**AI & Services:**
+- Anthropic Claude (Primary AI)
+- Google Gemini (Fallback 1)
+- OpenAI GPT (Fallback 2)
+- Razorpay (payments)
+- Twilio (SMS notifications)
+- Nodemailer (email alerts)
+- Google TTS + ElevenLabs (voice output)
+
+**Security:**
+- JWT + bcryptjs (auth & hashing)
+- SHA-256 (evidence integrity)
+- Helmet, CORS, rate limiting
+- Role-based protected routes
+- dotenv (env management)
+
+#### ✨ Key Features
+
+<table>
+<tr>
+<td width="50%">
+
+**Core Functionality:**
+- 🤖 JurisPilot AI — multi-provider legal assistant (Claude → Gemini → OpenAI fallback)
+- 👨‍⚖️ Lawyer Marketplace — browse & connect with verified lawyers by specialization, rating & fee
+- 📂 Case Management — create, track & manage legal cases with timeline & auto lawyer matching
+- 💬 Real-Time Chat — Socket.io messaging between users and lawyers with file attachments
+- 📄 AI Document Analysis — upload PDFs/DOCX and get instant AI risk analysis
+- 💳 Razorpay Payments — integrated payment gateway for consultations
+
+</td>
+<td width="50%">
+
+**Advanced Features:**
+- 📊 Confidence Scoring — AI rates its own answer confidence per response
+- 🚨 Smart Escalation — low-confidence queries auto-escalated to lawyers via email + SMS
+- 📜 Legal Notice Generator — AI-crafted legal notices with customizable parameters
+- 🎥 Video Calling — in-app video consultations between users and lawyers
+- 🗣️ Voice I/O — speech recognition & TTS in English and Hindi
+- 🌙 Dark/Light Theme — Zustand-powered toggle with system preference detection
+- 🔐 Evidence Integrity — SHA-256 hashing for tamper detection on uploaded evidence
+- 🛡️ Rate Limited — 30 AI requests per 15 min per IP
+
+</td>
+</tr>
+</table>
+
+#### 🏗️ Architecture
+
+- **MERN Stack** — React 19 (Vite) frontend + Express.js backend + MongoDB
+- **Multi-Provider AI Fallback** — Claude → Gemini → OpenAI (never fails)
+- **Real-Time Layer** — Socket.io for chat and live updates
+- **Services Layer** — AI scoring, notification dispatch, TTS synthesis
+- **Middleware** — JWT auth + role-based access (user / lawyer)
+- **RESTful API** — clean endpoints for cases, documents, lawyers, payments, notices
 
 ---
 
