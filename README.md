@@ -144,6 +144,22 @@ erence cleanup
 - 🛡️ **Security-first** approach (hashed passwords, protected routes, env secrets)
 - 🚀 **Deployable on Render + Railway (MySQL)**
 
+- ### ⚖️ **JurisBridge** - AI-Powered Legal Assistance Platform
+
+<div align="center">
+<a href="https://juris-bridge-my3w.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20JurisBridge-00d4ff?style=for-the-badge&labelColor=0D1B2A" alt="Live Demo" />
+</a>
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Tiwari1782/JurisBridge)
+[![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+[![React](https://img.shields.io/badge/React_19-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Socket.io](https://img.shields.io/badge/Socket.io-Real_Time-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
+</div>
+
+#### 📝 Project Description
+
 ---
 
 ## 🛠️ Technical Skills
