@@ -144,7 +144,8 @@ erence cleanup
 - 🛡️ **Security-first** approach (hashed passwords, protected routes, env secrets)
 - 🚀 **Deployable on Render + Railway (MySQL)**
 
-- ### ⚖️ **JurisBridge** - AI-Powered Legal Assistance Platform
+ 
+ ### ⚖️ **JurisBridge** - AI-Powered Legal Assistance Platform
 
 <div align="center">
 <a href="https://juris-bridge-my3w.vercel.app/" target="_blank">
@@ -234,6 +235,14 @@ erence cleanup
 - **Services Layer** — AI scoring, notification dispatch, TTS synthesis
 - **Middleware** — JWT auth + role-based access (user / lawyer)
 - **RESTful API** — clean endpoints for cases, documents, lawyers, payments, notices
+  
+#### 🌟 Project Highlights
+
+- 🤖 **Triple AI failover** — platform stays functional even if one or two providers go down
+- 📦 **Production-ready MERN structure** with modular controllers, routes, models & services
+- 🔐 **Security-first** — hashed passwords, JWT auth, SHA-256 evidence integrity, rate limiting
+- 🌐 **Multilingual** — English & Hindi support with voice input/output
+- 🚀 **Deployed on Vercel (frontend) + Render (backend + MongoDB Atlas)**
 
 ---
 
