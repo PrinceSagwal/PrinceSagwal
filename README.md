@@ -302,14 +302,14 @@ erence cleanup
 
 
 <h1 align="left">📊 GitHub Stats</h1>
-<div align="center"> <table> <tr> <td> <img src="https://github-readme-stats.vercel.app/api?username=PrinceSagwal&show_icons=false&include_all_commits=true&count_private=true&theme=dark" width="400" height="200"/> </td> <td> <img src="https://streak-stats.demolab.com?user=PrinceSagwal&theme=dark" width="400" height="200"/> </td> </tr> <tr> <td colspan="2" align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prince5310&layout=compact&theme=dark" width="820" height="200"/> </td> </tr> </table> </div>
+<div align="center"> <table> <tr> <td> <img src="https://github-readme-stats.vercel.app/api?username=PrinceSagwal&show_icons=false&include_all_commits=true&count_private=true&theme=dark" width="400" height="200"/> </td> <td> <img src="https://streak-stats.demolab.com?user=PrinceSagwal&theme=dark" width="400" height="200"/> </td> </tr> <tr> <td colspan="2" align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrinceSagwal&layout=compact&theme=dark" width="820" height="200"/> </td> </tr> </table> </div>
 
 <h1 align="left">🧠 LeetCode Stats</h1> <p align="center"> <a href="https://leetcode.com/Prince5310"> <img src="https://leetcard.jacoblin.cool/Prince5310?theme=dark" alt="Prince's LeetCode Stats"> </a> </p>
 ## 🏆 GitHub Trophies
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Tiwari1782&theme=radical&no-frame=false&no-bg=true&margin-w=12" />
+<img src="https://github-profile-trophy.vercel.app/?username=PrinceSagwal&theme=radical&no-frame=false&no-bg=true&margin-w=12" />
 
 </div>
 
