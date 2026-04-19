@@ -52,7 +52,7 @@ erence cleanup
 
 | 🎯 Role | 🏢 Organization |
 |:--------|:---------------|
-| **Bug2Build Human Resource Head** | CGC UNIVERSITY MOHALI |
+| **Bug2Build Community Head** | CGC UNIVERSITY MOHALI |
 
 </div>
 ---
